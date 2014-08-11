@@ -22,7 +22,7 @@ namespace NUnit.Core.Extensions.Tests
 
 		public void SampleTest2()
 		{
-			Console.WriteLine( "Hello from sample test 2" );
+			Console.WriteLine( "Hello from sample test 2" ); //tuka
 		}
 
 		public void NotATest()

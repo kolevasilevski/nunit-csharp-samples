@@ -29,11 +29,11 @@ namespace NUnit.Core.Extensions
 			// In this example, we simply display a message.
 		}
 
-		protected override void DoOneTimeSetUp(TestResult suiteResult)
-		{
-			Console.WriteLine( "Extended Fixture SetUp called" );
-			base.DoOneTimeSetUp (suiteResult);
-		}
+        protected override void DoOneTimeSetUp(TestResult suiteResult)
+        {
+            Console.WriteLine("Extended Fixture SetUp called");
+            base.DoOneTimeSetUp(suiteResult);
+        }
 
 		protected override void DoOneTimeTearDown(TestResult suiteResult)
 		{
